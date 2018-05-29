@@ -146,3 +146,56 @@ html {
   color: #5194e3;
   text-decoration: none;
 }
+
+/* Course */
+
+.courses {
+  background: #d8d8d8;
+  padding: 2rem 4rem;
+}
+
+.courses h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0 0 2rem 0;
+  text-align: center;
+}
+
+.courses div.container {
+  background: purple;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.courses article.course {
+  width: 30%;
+  background: white;
+  margin-bottom: 2rem;
+}
+
+.courses article.course img {
+  width: 100%;
+}
+
+.courses article.course .text {
+  padding: 1rem;
+}
+
+.courses article.course .text h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.courses .text h4 {
+  font-size: 0.8rem;
+  color: #767676;
+  padding-bottom: 0.5rem;
+}
+
+.courses .text p {
+  font-size: 0.8rem;
+  color: #767676;
+  line-height: 1.6;
+}
