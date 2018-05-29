@@ -4,7 +4,7 @@ html {
   font-family: Helvetica;
 }
 
-/* Main Navigation */
+/* Main Nav */
 
 .nav-main {
   background: white;
@@ -35,6 +35,18 @@ html {
   padding-right: 1rem;
 }
 
+/* Columns */
+
+.col-1 {
+  width: 60%;
+  background: blue;
+}
+
+.col-2 {
+  width: 40%;
+  background: red;
+}
+
 /* Banner */
 
 .banner {
@@ -42,14 +54,6 @@ html {
   display: flex;
   align-items: center;
   padding: 2rem 1.5rem;
-}
-
-.banner .col-1 {
-  width: 60%;
-}
-
-.banner .col-2 {
-  width: 40%;
 }
 
 .banner img {
@@ -81,4 +85,64 @@ html {
   display: block;
   text-decoration: none;
   text-align: center;
+}
+
+/* Info main */
+
+.info-main {
+  display: flex;
+  align-items: top;
+  padding: 2rem 1.5rem;
+}
+
+.info-main .col-1 img {
+  width: 100%;
+}
+
+.info-main .col-1 h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1.5rem 0 1rem 0;
+}
+
+.info-main .col-1 p {
+  padding-bottom: 1rem;
+}
+
+.info-main .col-1 span {
+  font-size: 0.8em;
+}
+
+.info-main .item {
+  background: green;
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
+  padding: 1rem;
+}
+
+.info-main .item img {
+  width: 35%;
+  height: auto;
+}
+
+.info-main .item .text {
+  margin-left: 1rem;
+}
+
+.info-main .item .text h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+}
+
+.info-main .item .text p {
+  font-size: 0.9rem;
+  padding-bottom: 0.5rem;
+}
+
+.info-main .item .text a {
+  font-size: 0.9rem;
+  color: #5194e3;
+  text-decoration: none;
 }
