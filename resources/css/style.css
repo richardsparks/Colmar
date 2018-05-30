@@ -160,6 +160,10 @@ html {
   height: auto;
 }
 
+.info-main .col-2 .item img.mobile {
+  display: none;
+}
+
 .info-main .col-2 .item .text {
   margin-left: 1rem;
 }
@@ -395,10 +399,94 @@ footer ul li a:hover {
   }
 }
 
+@media only screen and (max-width: 580px) {
+  .col-1, .col-2 {
+    width: 100%;
+  }
+
+  .banner {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .banner .text  {
+    margin: 1.5rem;
+  }
+
+  .banner .text h1 {
+    font-size: 1.6rem;
+  }
+
+  .banner .text p {
+    font-size: 1.2rem;
+  }
+
+  .banner .text a {
+    margin-top: 0.5rem;
+  }
+
+  .info-main {
+    flex-direction: column;
+    align-items: top;
+    padding: 1.5rem 1.5rem;
+  }
+
+  .info-main .col-2 {
+    margin-top: 2rem;
+  }
+
+  .info-main .col-1 h2 {
+    font-size: 1.6rem;
+  }
+
+  .info-main .col-2 .item {
+    margin: 0;
+    padding: 0;
+    border: none;
+    flex-direction: column;
+  }
+
+  .info-main .col-2 .item img.desktop {
+    display: none;
+  }
+
+  .info-main .col-2 .item img.mobile {
+    display: flex;
+  }
+
+  .info-main .col-2 .item img {
+    width: 100%;
+    height: auto;
+  }
+
+  .info-main .col-2 .item .text {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .info-main .col-2 .item .text h3 {
+    margin: 2rem 0 0 2rem;
+  }
+
+  .info-main .col-2 .item .text p {
+    margin: 0 0 0 2rem;
+  }
+
+  .info-main .col-2 .item .text a {
+    margin: 0 0 2rem 2rem;
+    display: block;
+  }
+
+
+}
+
+
+
+
+
 @media only screen and (max-width: 500px) {
   .nav.mobile .logo div {
     display: none;
   }
-
-  
 }
