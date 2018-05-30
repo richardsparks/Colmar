@@ -5,43 +5,51 @@ html {
   color: #4a4a4a;
 }
 
-/********** Main Nav **********/
+/********** Navigation **********/
 
-.nav-main {
+.nav {
   background: white;
   display: flex;
   align-items: center;
   padding: 1rem 1.5rem;
 }
 
-.nav-main .logo {
+.nav .logo {
   display: flex;
   align-items: center;
   color: #9b9b9b;
 }
 
-.nav-main .logo span {
+.nav .logo span {
   font-weight: bold;
   color: #4a4a4a;
 }
 
-.nav-main ul {
+.nav ul {
   text-align: right;
   width: 100%;
 }
 
-.nav-main ul li {
+.nav ul li {
   display: inline;
   padding-right: 1rem;
 }
 
-.nav-main ul li a {
+.nav ul li a {
   text-decoration: none;
   color: #4a4a4a;
 }
 
-.nav-main ul li a:hover {
+.nav ul li a:hover {
   color: #9b9b9b;
+}
+
+.nav.mobile {
+  display: none;
+}
+
+.nav.mobile ul li {
+  padding: 0 1rem;
 }
 
 /********** Columns **********/
@@ -82,6 +90,7 @@ html {
 .banner .text p {
   font-size: 1.5rem;
   padding-bottom: 1rem;
+  line-height: 1.2;
 }
 
 .banner .text a {
@@ -271,7 +280,8 @@ html {
   display: flex;
   align-items: center;
   margin: 0 0 0 1rem;
-  padding: 1rem
+  padding: 1rem;
+  border-left: 1px solid #d8d8d8;
 }
 
 .exhibit .col-2 .item:first-child {
@@ -341,7 +351,7 @@ footer ul li a:hover {
 
 /********** Responsive **********/
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .col-1 {
     width: 50%;
   }
@@ -376,6 +386,19 @@ footer ul li a:hover {
 
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 620px) {
+  .nav.desktop {
+    display: none;
+  }
+  .nav.mobile {
+    display: flex;
+  }
+}
 
+@media only screen and (max-width: 500px) {
+  .nav.mobile .logo div {
+    display: none;
+  }
+
+  
 }
