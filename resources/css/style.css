@@ -123,6 +123,7 @@ html {
 
 .info-main .col-1 p {
   padding-bottom: 1rem;
+  line-height: 1.2;
   color: #767676;
 }
 
@@ -136,7 +137,7 @@ html {
 .info-main .col-2 .item {
   display: flex;
   align-items: center;
-  margin: 0 1rem;
+  margin: 0 0 0 1rem;
   padding: 1rem;
   border-left: 1px solid #d8d8d8;
 }
@@ -163,6 +164,7 @@ html {
 .info-main .col-2 .item .text p {
   font-size: 0.9rem;
   padding-bottom: 0.5rem;
+  line-height: 1.2;
   color: #767676;
 }
 
@@ -268,8 +270,8 @@ html {
 .exhibit .col-2 .item {
   display: flex;
   align-items: center;
-  margin: 0 1rem;
-  padding: 1rem;
+  margin: 0 0 0 1rem;
+  padding: 1rem
 }
 
 .exhibit .col-2 .item:first-child {
@@ -334,4 +336,46 @@ footer ul li a {
 
 footer ul li a:hover {
   color: #9b9b9b;
+}
+
+
+/********** Responsive **********/
+
+@media only screen and (max-width: 800px) {
+  .col-1 {
+    width: 50%;
+  }
+
+  .col-2 {
+    width: 50%;
+  }
+
+  .banner .text h1 {
+    font-size: 1.5rem;
+  }
+
+  .banner .text p {
+    font-size: 1rem;
+  }
+
+  .info-main .col-1 h2 {
+    font-size: 1.5rem;
+  }
+
+  .courses {
+    padding: 2rem 1rem;
+  }
+
+  .courses h2 {
+    font-size: 1.5rem;
+  }
+
+  .exhibit h2 {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media only screen and (max-width: 640px) {
+
 }
