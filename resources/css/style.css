@@ -1,7 +1,7 @@
 html {
   font-size: 16px;
   line-height: 1.4;
-  font-family: Helvetica;
+  font-family: 'Roboto', sans-serif;
   color: #4a4a4a;
 }
 
@@ -85,10 +85,12 @@ html {
   font-size: 2rem;
   font-weight: bold;
   padding-bottom: 1rem;
+  font-family: 'Merriweather', serif;
+  line-height: 1.2;
 }
 
 .banner .text p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding-bottom: 1rem;
   line-height: 1.2;
 }
@@ -128,6 +130,8 @@ html {
   font-size: 2rem;
   font-weight: bold;
   padding: 1.5rem 0 1rem 0;
+  font-family: 'Merriweather', serif;
+  line-height: 1.2;
 }
 
 .info-main .col-1 p {
@@ -199,6 +203,8 @@ html {
   font-weight: bold;
   padding: 0 0 2rem 0;
   text-align: center;
+  font-family: 'Merriweather', serif;
+  line-height: 1.2;
 }
 
 .courses div.container {
@@ -250,6 +256,8 @@ html {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
+  font-family: 'Merriweather', serif;
+  line-height: 1.2;
 }
 
 .exhibit .container {
