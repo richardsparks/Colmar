@@ -68,7 +68,7 @@ html {
 /********** Banner **********/
 
 .banner {
-  background: #d8d8d8;
+  background: #b2ceee;
   display: flex;
   align-items: center;
   padding: 2rem 1.5rem;
@@ -100,7 +100,7 @@ html {
   margin-top: 1rem;
   padding: 1rem 0;
   font-size: 1rem;
-  background: #4a4a4a;
+  background: #5194e3;
   color: white;
   width: 100%;
   display: block;
@@ -109,7 +109,8 @@ html {
 }
 
 .banner .text a:hover {
-  background: #9b9b9b;
+  background: #4587d4;
+  transition: all 300ms linear;
 }
 
 /********** Info main **********/
@@ -190,6 +191,10 @@ html {
   font-size: 0.9rem;
   color: #5194e3;
   text-decoration: none;
+}
+
+.info-main .col-2 .item .text a:hover {
+  color: #4587d4;
 }
 
 /********** Courses **********/
@@ -325,6 +330,12 @@ html {
 .exhibit .col-2 .item .text a {
   font-size: 0.9rem;
   color: #5194e3;
+  text-decoration: none;
+}
+
+.exhibit .col-2 .item .text a:hover {
+  font-size: 0.9rem;
+  color: #4587d4;
   text-decoration: none;
 }
 
